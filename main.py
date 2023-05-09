@@ -136,11 +136,10 @@ def move_image(direction,moving_label,location):
     elif direction == "right":
         x = int(x) + 69
         location[1]=location[1]+1
-    print("X: ",x)
-    print("y: ",y)
 
 
-    if int(x) > 477 or int(y) < 12 or int(x) < 270 or int(y) > 355:
+
+    if int(x) > 477 or int(y) < 12 or int(x) < 270 or int(y) > 355 or (int(x)==339 and int(y)==306) or (int(x)==408 and int(y)==306) or (int(x)==408 and int(y)==257) or (int(x)==339 and int(y)==257) or (int(x)==339 and int(y)==110) or (int(x)==408 and int(y)==110) or (int(x)==408 and int(y)==61) or (int(x)==339 and int(y)==61):
         moving_label.place(x=270, y=355)
         location[0] = 0
         location[1] = 0
