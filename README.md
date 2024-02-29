@@ -63,5 +63,3 @@ Additional assumptions are made to simplify the problem and handle agent coordin
 ### Algorithm
 
 The algorithm used in the project is the Breadth-First Search (BFS) algorithm. It is employed to find the shortest paths for the agents to reach their respective goals.
-
-Please note that the content above is a sample Readme file. You can modify and expand it according to your project's specific details and requirements.
